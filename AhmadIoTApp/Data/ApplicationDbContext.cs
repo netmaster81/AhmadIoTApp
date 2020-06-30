@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AhmadIoTApp.Data
 {
+    //public class ApplicationDbContext : IdentityDbContext /' add <User, IdentityRole, String>
     public class ApplicationDbContext : IdentityDbContext<User, IdentityRole, string>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
