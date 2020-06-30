@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AhmadIoTApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200630144932_CustomUserData")]
+    [Migration("20200630182403_CustomUserData")]
     partial class CustomUserData
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
